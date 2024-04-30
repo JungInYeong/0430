@@ -8,10 +8,11 @@ int main()
 {
 	string s = "Codingon";
 
-	for (int i = 0; i < s.size(); i++)
+	/*for (int i = 0; i < s.size(); i++)
 	{
 		s[i] = towlower(s[i]);
-	}
+	}*/
+	s[0] = towlower(s[0]);
 	cout << "소문자 변환 : " << s << endl;
 
 	//ding 문자열 반환
@@ -19,11 +20,12 @@ int main()
 
 
 	// cooooon 하려면 먼저 가운데 지움
-	s.erase(2, 4);
-	cout << s.insert(2,"oooo") << endl;
+	/*s.erase(2, 4);
+	cout << s.insert(2,"oooo") << endl;*/
+	cout << s.replace(2, 5, "oooo") << endl;
 
-	cout << s.erase(2, 5) << endl;
-
+	//cout << s.erase(2, 5) << endl;
+	cout << s.erase(1, 4);
 	
 
 
