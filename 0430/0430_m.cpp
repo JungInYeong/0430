@@ -21,4 +21,6 @@ int main()
 
 	cout << "two 라는 문자 두번째 index : ";
 	cout << s.find("two", s.find("two")+1);
+
+	return 0;
 }
