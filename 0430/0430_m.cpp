@@ -14,7 +14,7 @@ int main()
 	int n;
 	cout << "몇 번째 문자 출력 : ";
 	cin >> n;
-	cout << n << " 번째 문자는 " << s[n - 1] << endl;
+	cout << n << " 번째 문자는 " << s.at(n - 1) << endl;
 
 	cout << "two 라는 문자 처음 index : ";
 	cout << s.find("two") << endl;
