@@ -12,7 +12,7 @@ int main()
 	cout << s.length() << endl;
 
 	int n;
-	cout << "몇 번쨰 문자 출력 : ";
+	cout << "몇 번째 문자 출력 : ";
 	cin >> n;
 	cout << n << " 번째 문자는 " << s[n - 1] << endl;
 
