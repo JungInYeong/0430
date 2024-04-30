@@ -34,7 +34,7 @@ void stragain(string* ptr)
 	{
 		if (!strprint(ptr))
 		{
-			cout << " 숫자 재입력 해주세요(숫자로만) : ";
+			cout << " 재입력 해주세요(숫자로만) : ";
 			cin >> *ptr;
 		}
 		else
