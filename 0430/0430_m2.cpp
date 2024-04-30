@@ -53,7 +53,7 @@ int main()
 	string str2;
 	string* ptr;
 
-	cout << "첫 번쨰 문자열 입력 : ";
+	cout << "첫 번째 문자열 입력 : ";
 	cin >> str1;
 	ptr = &str1;
 	stragain(ptr);
