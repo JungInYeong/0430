@@ -10,14 +10,14 @@ bool strprint(string* ptr)
 	int word_count = 0; // 1111 // 111ㅣ
 	for (int i = 0; i < str.length(); i++)
 	{
-		if (isdigit(str[i]) == false) // 문자 발견 - 0
+		if (isdigit(str[i]) == false) // 문자 발견이 안되었을 때
 		{
 			word_count++;
 		}
 		//cout << word_count;
 	}
 
-	if (word_count == 0) 
+	if (word_count == 0)  // 모두 숫자일때
 	{
 		return true;
 	}
