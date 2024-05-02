@@ -9,9 +9,9 @@ using namespace std;
 
 // 학생 정보 저장 벡터
 int studentnum;
-vector<string> names(studentnum); //3
-vector<int>ages; //3
-vector<string> births(studentnum); //10, 3
+vector<string> names(studentnum);	// 이름저장 벡터
+vector<int>ages;					// 나이 저장 벡터
+vector<string> births(studentnum);	// 생일 저장 벡터
 
 // 학생 정보 입력 함수
 void inputStudent()
@@ -77,7 +77,7 @@ void printAverage()
 // 가장빠른 생일 구하는 함수
 void printFastbirth()
 {
-	string earlybirth = "1000-12-31";
+	string earlybirth = "1231"; //초기값은 가장 큰 생일값
 	string earlyname;
 	int earlyage = 0;
 
